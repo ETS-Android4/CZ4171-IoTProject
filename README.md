@@ -14,6 +14,7 @@ The parameters used for training are as follows:
 3. Learning Rate: 0.001 (A tuning parameter that determines the step size at each iteration) 
 
 The trained model have the following diagrams to determine its accuracy: 
+
 1. Accuracy Per Class
 ![apc](https://user-images.githubusercontent.com/62253459/163720406-b9db77d6-be22-4e28-a98b-52ef02641978.jpg)
 
