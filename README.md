@@ -26,8 +26,23 @@ The trained model have the following diagrams to determine its accuracy:
 ### 4. Loss per Epoch 
 ![lpe](https://user-images.githubusercontent.com/62253459/163720418-a42bb696-1644-4ca0-9ff9-ef6e48850e57.jpg)
 
-Based on the diagrams and numbers, the numbers have shown to be reasonable enough for the Money CLassification Application. THerefore, the model have been exported to Tensorflow in Keras Format, named sgdMoney.h5.
+Based on the diagrams and numbers, the numbers have shown to be reasonable enough for the Money CLassification Application. Therefore, the model have been exported to Tensorflow in Keras Format, named sgdMoney.h5.
 
-## 2. Flask Server Development 
+## 2. Python-Flask Server Development 
+The codes for the Python Flask Server can be found in the iotServer folder. 
+The Keras Model as obtained from the training should be stored in the same file directory as the Flask Server and be declared in the Python Server code. 
+There exists a Predict Function in the code that is used to deploy the model. This function allows us to run the prediction on images of the money, which returns the predicted note class. 
+In the server, all that is required to do is to use a POST request to receive the image file uploaded from the IoT Device. Then it uses the file directory of the uploaded image to run the Predict Function. 
+This prediction will be returned as a response, which will be sent to the apllication. 
 
 ## 3. Android Application Development 
+The codes for the Android Application can be found in the IOTProject folder. 
+The UI of the Android Application is shown below: 
+![ANDORID UI](https://user-images.githubusercontent.com/62253459/163721343-6e4f249f-096c-40e8-bf87-06673e9ae90e.jpg)
+There are 2 buttons that allows users to either select the image from the gallery or to use the camera function to take the photo.
+Once the image is selected or taken from the camera, it will be shown on the placeholder. By clicking on the Predict Button, it sends the image to the server that has the Keras Machine Learning Model. The prediction process will then be processed in the server and the result will be sent back to the Android Application, which will be displayed in the textview. The application with the predicted result looks is shown below: 
+![example](https://user-images.githubusercontent.com/62253459/163723145-f993bee6-1e25-4a46-8a84-18eb0739fec1.jpg)
+
+## Video Demo 
+
+
