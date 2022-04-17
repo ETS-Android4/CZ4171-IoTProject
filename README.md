@@ -1,1 +1,1 @@
-# CZ4171-IoTProject
+# CZ4171-IoT: Communications and Networking Course Project 
