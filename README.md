@@ -39,6 +39,7 @@ This prediction will be returned as a response, which will be sent to the apllic
 The codes for the Android Application can be found in the IOTProject folder. 
 The UI of the Android Application is shown below: 
 ![ANDORID UI](https://user-images.githubusercontent.com/62253459/163721343-6e4f249f-096c-40e8-bf87-06673e9ae90e.jpg)
+
 There are 2 buttons that allows users to either select the image from the gallery or to use the camera function to take the photo.
 Once the image is selected or taken from the camera, it will be shown on the placeholder. By clicking on the Predict Button, it sends the image to the server that has the Keras Machine Learning Model. The prediction process will then be processed in the server and the result will be sent back to the Android Application, which will be displayed in the textview. The application with the predicted result looks is shown below: 
 
