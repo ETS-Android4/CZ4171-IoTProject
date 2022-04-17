@@ -6,8 +6,8 @@ Therefore, for this project to be done, there are three parts that is required t
 2. Flask Server Development 
 3. Android Application Development 
 
-#1. Image Classification Model 
+## 1. Image Classification Model 
 
-#2. Flask Server Development 
+## 2. Flask Server Development 
 
-#3. Android Application Development 
+## 3. Android Application Development 
