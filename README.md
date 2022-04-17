@@ -14,17 +14,16 @@ The parameters used for training are as follows:
 3. Learning Rate: 0.001 (A tuning parameter that determines the step size at each iteration) 
 
 The trained model have the following diagrams to determine its accuracy: 
-
-1. Accuracy Per Class
+### 1. Accuracy Per Class
 ![apc](https://user-images.githubusercontent.com/62253459/163720406-b9db77d6-be22-4e28-a98b-52ef02641978.jpg)
 
-2. Confusion Matrix
+### 2. Confusion Matrix
 ![cm](https://user-images.githubusercontent.com/62253459/163720415-aad7d99d-36a8-47e9-ba77-92861eeee3cd.jpg)
 
-3. Accuracy per Epoch 
+### 3. Accuracy per Epoch 
 ![ape](https://user-images.githubusercontent.com/62253459/163720416-6f29262c-4484-4bda-a702-4a6bb1e4e816.jpg)
 
-4. Loss per Epoch 
+### 4. Loss per Epoch 
 ![lpe](https://user-images.githubusercontent.com/62253459/163720418-a42bb696-1644-4ca0-9ff9-ef6e48850e57.jpg)
 
 Based on the diagrams and numbers, the numbers have shown to be reasonable enough for the Money CLassification Application. THerefore, the model have been exported to Tensorflow in Keras Format, named sgdMoney.h5.
