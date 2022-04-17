@@ -26,7 +26,7 @@ The trained model have the following diagrams to determine its accuracy:
 ### 4. Loss per Epoch 
 ![lpe](https://user-images.githubusercontent.com/62253459/163720418-a42bb696-1644-4ca0-9ff9-ef6e48850e57.jpg)
 
-Based on the diagrams and numbers, the numbers have shown to be reasonable enough for the Money CLassification Application. Therefore, the model have been exported to Tensorflow in Keras Format, named sgdMoney.h5.
+Based on the diagrams and numbers, the numbers have shown to be reasonable enough for the Money Classification Application. Therefore, the model have been exported to Tensorflow in Keras Format, named sgdMoney.h5.
 
 ## 2. Python-Flask Server Development 
 The codes for the Python Flask Server can be found in the iotServer folder. 
