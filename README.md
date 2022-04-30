@@ -28,6 +28,8 @@ The trained model have the following diagrams to determine its accuracy:
 
 Based on the diagrams and numbers, the numbers have shown to be reasonable enough for the Money Classification Application. Therefore, the model have been exported to Tensorflow in Keras Format, named sgdMoney.h5.
 
+The Teachable Machine file is named as sgdDollars.tm which can be opened in the Google Teachable Machine website to adjust the necessary parameters for future use. 
+
 ## 2. Python-Flask Server Development 
 The codes for the Python Flask Server can be found in the iotServer folder. 
 The Keras Model as obtained from the training should be stored in the same file directory as the Flask Server and be declared in the Python Server code. 
@@ -38,6 +40,7 @@ This prediction will be returned as a response, which will be sent to the apllic
 ## 3. Android Application Development 
 The codes for the Android Application can be found in the IOTProject folder. 
 The UI of the Android Application is shown below: 
+
 ![ANDORID UI](https://user-images.githubusercontent.com/62253459/163721343-6e4f249f-096c-40e8-bf87-06673e9ae90e.jpg)
 
 There are 2 buttons that allows users to either select the image from the gallery or to use the camera function to take the photo.
