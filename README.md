@@ -45,7 +45,7 @@ The UI of the Android Application is shown below:
 
 
 There are 2 buttons that allows users to either select the image from the gallery or to use the camera function to take the photo.
-Once the image is selected or taken from the camera, it will be shown on the placeholder. By clicking on the Predict Button, it sends the image to the server that has the Keras Machine Learning Model. The prediction process will then be processed in the server and the result will be sent back to the Android Application, which will be displayed in the textview. The application with the predicted result looks is shown below: 
+Once the image is selected or taken from the camera, it will be shown on the placeholder. By clicking on the Predict Button, it sends the image to the server that has the Keras Machine Learning Model. The prediction process will then be processed in the server and the result will be sent back to the Android Application, which will be displayed in the textview. The application with the predicted result is shown below: 
 
 ![example](https://user-images.githubusercontent.com/62253459/163723145-f993bee6-1e25-4a46-8a84-18eb0739fec1.jpg)
 
