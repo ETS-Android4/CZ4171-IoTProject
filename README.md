@@ -36,9 +36,7 @@ The codes for the Python Flask Server can be found in the iotServer folder.
 The Keras Model as obtained from the training should be stored in the same file directory as the Flask Server and be declared in the Python Server code. 
 There exists a Predict Function in the code that is used to deploy the model. This function allows us to run the prediction on images of the money, which returns the predicted note class. 
 
-In the server, all that is required to do is to use a POST request to receive the image file uploaded from the IoT Device. Then it uses the file directory of the uploaded image to run the Predict Function. 
-
-This prediction will be returned as a response, which will be sent to the apllication. 
+In the server, all that is required to do is to use a POST request to receive the image file uploaded from the IoT Device. Then it uses the file directory of the uploaded image to run the Predict Function. This prediction will be returned as a response, which will be sent to the apllication. 
 
 By default, the flask server can handle multiple client requests. This will be demonstrated in the Video Demo. 
 
