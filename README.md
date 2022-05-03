@@ -50,5 +50,5 @@ Once the image is selected or taken from the camera, it will be shown on the pla
 ![example](https://user-images.githubusercontent.com/62253459/163723145-f993bee6-1e25-4a46-8a84-18eb0739fec1.jpg)
 
 ## Video Demo 
-https://youtu.be/P5Z1ZifafH4
+https://youtu.be/_MiuO6lj_y8
 
