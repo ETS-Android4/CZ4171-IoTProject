@@ -37,6 +37,8 @@ There exists a Predict Function in the code that is used to deploy the model. Th
 In the server, all that is required to do is to use a POST request to receive the image file uploaded from the IoT Device. Then it uses the file directory of the uploaded image to run the Predict Function. 
 This prediction will be returned as a response, which will be sent to the apllication. 
 
+By default, the flask server can handle multiple client requests. This will be demonstrated in the Video Demo. 
+
 ## 3. Android Application Development 
 The codes for the Android Application can be found in the IOTProject folder. 
 The UI of the Android Application is shown below: 
